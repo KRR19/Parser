@@ -86,9 +86,19 @@
             // NumericEnd
             // 
             this.NumericEnd.Location = new System.Drawing.Point(264, 74);
+            this.NumericEnd.Minimum = new decimal(new int[] {
+            1,
+            0,
+            0,
+            0});
             this.NumericEnd.Name = "NumericEnd";
             this.NumericEnd.Size = new System.Drawing.Size(120, 20);
             this.NumericEnd.TabIndex = 4;
+            this.NumericEnd.Value = new decimal(new int[] {
+            1,
+            0,
+            0,
+            0});
             // 
             // ButtonStart
             // 
